@@ -1,9 +1,14 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -16,21 +21,9 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+  align-items: flex-end;
+  gap: 12px;
 }
 
 .title a:hover,
@@ -40,9 +33,9 @@
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  font-family: The Nautigal;
+  font-size: 94px;
+  margin: 16px;
 }
 
 .title,
@@ -51,66 +44,52 @@
 }
 
 .description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  color: #5a30ff;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
+.descriptionContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  align-items: center;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.imageContainer {
+  display: block;
+  width: 250px;
+  height: auto;
+  -webkit-transform: skewX(-54deg);
+  -ms-transform: skewX(-54deg);
+  transform: skewX(-54deg);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.imageContainer img {
+  -webkit-transform: skewX(54deg) !important;
+  -ms-transform: skewX(54deg) !important;
+  transform: skewX(54deg) translateY(45px) !important;
+  position: absolute !important;
+  top: -87px !important;
+  left: -90px !important;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.topTriangle {
+  position: absolute;
+  left: -400px;
+  top: 0;
+  width: 500px;
+  height: 500px;
+  background-color: #3f22b3;
+  transform: skewX(-54deg);
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.bottomTriangle {
+  position: absolute;
+  right: -400px;
+  bottom: 0;
+  width: 500px;
+  height: 400px;
+  background-color: #3f22b3;
+  transform: skewX(-54deg);
 }
