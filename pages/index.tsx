@@ -13,15 +13,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.topTriangle} />
-      <div className={styles.bottomTriangle} />
+      <div className={styles.circleContainer}>
+        <div className={styles.circle} />
+      </div>
 
       <main className={styles.main}>
         <div className={styles.imageContainer}>
           <Image
+            layout="fixed"
             src="/avatar.jpg"
             alt="oscar-reyes"
-            layout="responsive"
             width={200}
             height={356}
           />
