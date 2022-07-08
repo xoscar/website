@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Oscar R. Reyes</h1>
         <div>
           <h2 className={styles.description}>
-            Gamer • Lead Software Engineer • Creator
+            Lead Software Engineer • Gamer • Creator
           </h2>
         </div>
       </main>
