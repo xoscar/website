@@ -76,6 +76,7 @@
 .imageContainer > span {
   position: absolute !important;
   top: -50px !important;
+  left: -135px !important;
 }
 
 .circleContainer {

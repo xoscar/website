@@ -23,8 +23,8 @@ const Home: NextPage = () => {
             layout="fixed"
             src="/avatar.jpg"
             alt="oscar-reyes"
-            width={200}
-            height={356}
+            width={450}
+            height={316}
           />
         </div>
         <h1 className={styles.title}>Oscar R. Reyes</h1>
@@ -45,6 +45,10 @@ const Home: NextPage = () => {
         |
         <Link href="https://twitter.com/oreyes_io" target="_blank">
           Twitter
+        </Link>{" "}
+        |
+        <Link href="https://www.youtube.com/channel/UCBwVUFWn9Q3qL1XyHtvH-lg" target="_blank">
+          Youtube
         </Link>{" "}
         |
         <Link href="https://medium.com/@oscar-reyes" target="_blank">
