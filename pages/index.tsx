@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -36,31 +35,45 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <Link
+        <a
           href="https://www.linkedin.com/in/%F0%9F%87%B2%F0%9F%87%BD-oscar-rafael-reyes-gaucin-8aa843a8/"
           target="_blank"
+          rel="noreferrer"
         >
           LinkedIn
-        </Link>{" "}
+        </a>{" "}
         |
-        <Link href="https://twitter.com/oreyes_io" target="_blank">
+        <a
+          href="https://twitter.com/oreyes_io"
+          target="_blank"
+          rel="noreferrer"
+        >
           Twitter
-        </Link>{" "}
+        </a>{" "}
         |
-        <Link href="https://www.youtube.com/channel/UCBwVUFWn9Q3qL1XyHtvH-lg" target="_blank">
+        <a
+          href="https://www.youtube.com/channel/UCBwVUFWn9Q3qL1XyHtvH-lg"
+          target="_blank"
+          rel="noreferrer"
+        >
           Youtube
-        </Link>{" "}
+        </a>{" "}
         |
-        <Link href="https://medium.com/@oscar-reyes" target="_blank">
+        <a
+          href="https://medium.com/@oscar-reyes"
+          target="_blank"
+          rel="noreferrer"
+        >
           Medium
-        </Link>{" "}
+        </a>{" "}
         |
-        <Link
+        <a
           href="https://drive.google.com/file/d/13XkLAYxtSlSq9pPrQVQBZKkWUbbydzm1/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           Resume
-        </Link>
+        </a>
       </footer>
     </div>
   );
