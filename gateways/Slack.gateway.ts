@@ -1,8 +1,6 @@
-const { SLACK_WEBHOOK = "" } = process.env;
-
 const SlackGateway = () => ({
   async send(message: string) {
-    const response = await fetch(SLACK_WEBHOOK, {
+    const response = await fetch(process.env.SLACK_WEBHOOK || "", {
       method: "POST",
       body: JSON.stringify({
         text: message,
@@ -13,7 +11,7 @@ const SlackGateway = () => ({
       throw new Error("Failed to send message to Slack");
     }
 
-    return response.json();
+    return response.text();
   },
 });
 
