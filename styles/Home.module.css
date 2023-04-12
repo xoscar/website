@@ -73,12 +73,6 @@
     0 2px 4px -1px rgb(0 0 0 / 30%);
 }
 
-.imageContainer > span {
-  position: absolute !important;
-  top: -50px !important;
-  left: -135px !important;
-}
-
 .circleContainer {
   display: flex;
   width: 100%;
