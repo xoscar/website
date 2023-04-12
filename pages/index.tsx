@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -18,13 +20,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div className={styles.imageContainer}>
-          <Image
-            layout="fill"
-            src="/avatar.png"
-            alt="oscar-reyes"
-            width={450}
-            height={316}
-          />
+          <Image layout="fill" src="/avatar.png" alt="oscar-reyes" />
         </div>
         <h1 className={styles.title}>Oscar R. Reyes</h1>
         <div>
@@ -86,6 +82,17 @@ const Home: NextPage = () => {
           Resume
         </a>
       </footer>
+
+      <Link href="https://www.buymeacoffee.com/oscarreyes" target="_blank">
+        <img
+          className="bmc-button"
+          width="217px"
+          height="60px"
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png"
+          alt="Buy Me A Te"
+          style={{ cursor: "pointer", zIndex: 2 }}
+        />
+      </Link>
     </div>
   );
 };
