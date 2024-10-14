@@ -38,7 +38,7 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://drive.google.com/file/d/13XkLAYxtSlSq9pPrQVQBZKkWUbbydzm1/view?usp=sharing"
+          href="https://drive.google.com/file/d/16IZ50zgampXTaWe4GYexgFIaNi8UEUiP/view"
           target="_blank"
           rel="noreferrer"
         >
