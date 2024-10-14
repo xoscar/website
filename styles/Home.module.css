@@ -43,10 +43,6 @@
   text-align: center;
 }
 
-.description {
-  color: #5a30ff;
-}
-
 .descriptionContainer {
   display: flex;
   justify-content: center;
@@ -70,6 +66,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+  overflow: hidden;
   top: 0;
   left: 0;
 }
