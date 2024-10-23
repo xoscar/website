@@ -18,16 +18,6 @@ const Home: NextPage = () => {
       </div>
 
       <main className={styles.main}>
-        <div className={styles.imageContainer}>
-          <Image
-            src="/avatar.png"
-            alt="oscar-reyes"
-            width="0"
-            height="0"
-            sizes="100vw"
-            style={{ width: "100%", height: "auto" }}
-          />
-        </div>
         <h1 className={styles.title}>Oscar R. Reyes</h1>
         <div>
           <h2 className={styles.description}>
