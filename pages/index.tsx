@@ -40,7 +40,7 @@ const Home: NextPage = () => {
         </a>{" "}
         |
         <a
-          href="https://www.linkedin.com/in/%F0%9F%87%B2%F0%9F%87%BD-oscar-rafael-reyes-gaucin-8aa843a8/"
+          href="https://www.linkedin.com/in/oscar-rreyes/"
           target="_blank"
           rel="noreferrer"
         >
