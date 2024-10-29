@@ -7,7 +7,7 @@ type ResponseData = {
   error?: unknown;
 };
 
-export const POST = async (req: NextRequest, res: NextResponse<ResponseData>) => {
+export const POST = async (req: NextRequest) => {
   try {
     const data = await req.formData();
     const file = data.get('file') as File;
