@@ -1,0 +1,21 @@
+html,
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  color: #3f22b3;
+  background-color: #3f22b3;
+}
+
+a {
+  color: #3f22b3;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

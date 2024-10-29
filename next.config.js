@@ -4,10 +4,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "cdn.buymeacoffee.com",
-        port: "",
-        pathname: "/**",
+        protocol: 'https',
+        hostname: 'cdn.buymeacoffee.com',
+        port: '',
+        pathname: '/**',
       },
     ],
   },

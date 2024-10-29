@@ -1,0 +1,10 @@
+.container {
+  max-width: 650px;
+  text-wrap: wrap;
+  overflow-y: scroll;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
