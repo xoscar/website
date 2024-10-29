@@ -41,6 +41,14 @@ const ExplainMyTrace: NextPage = () => {
         <p className={styles.description}>
           Simple tool using OpenAI and LangChain to breakdown an OpenTelemetry trace into human words.
         </p>
+        <p>
+          Powered by:{' '}
+          <b>
+            <a target="_blank" href="https://www.npmjs.com/package/@oscar-js/explain-my-trace">
+              @oscar-js/explain-my-trace
+            </a>
+          </b>
+        </p>
       </div>
 
       {(isError && (
