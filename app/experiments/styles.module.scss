@@ -10,6 +10,10 @@
   * {
     z-index: 2;
   }
+
+  @media (min-height: 1000px) {
+    justify-content: center;
+  }
 }
 
 .button {
