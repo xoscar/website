@@ -7,9 +7,6 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <main className={`${styles.main}`}>
         <h1 className={`${styles.title} ${styles.name}`}>Oscar R. Reyes</h1>
-        <div>
-          <h3 className={styles.description}>Currently looking for a new Job!</h3>
-        </div>
       </main>
 
       <footer className={styles.footer}>
