@@ -10,6 +10,7 @@ const Home: NextPage = () => {
         <h2 className={styles.title}>Fullstack Lead Software Engineer</h2>
         <h3 className={styles.title}>AWS | React | Node.js | Docker | OpenTelemetry</h3>
       </main>
+      <p>Hello Testkube</p>
 
       <footer className={styles.footer}>
         <a href="https://www.linkedin.com/in/oscar-rreyes/" target="_blank" rel="noreferrer">
